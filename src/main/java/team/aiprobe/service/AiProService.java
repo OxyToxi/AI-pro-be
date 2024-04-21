@@ -12,6 +12,7 @@ import java.util.*;
 
 
 @Service
+@Component
 public class AiProService {
     @Value("${openai.api.key}")
     private String apiKey;
